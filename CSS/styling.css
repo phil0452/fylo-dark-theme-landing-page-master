@@ -1,0 +1,442 @@
+html,
+body{
+	margin:0;
+	height: 100%;
+}
+
+body {
+	background-color: var(--Dark-Blue-intro-and-email-sign-up);
+	color: var(--White);
+}
+
+/*header #fylo-logo img*/
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	padding: 30px 25px;
+}
+
+/* header navigation */
+header #nav-container {	
+	display: flex;
+	justify-content: space-between;
+	max-width: 850px;
+	margin: auto;
+}
+
+header #nav-container #fylo-logo {
+	width: 100px;
+    height: 28px;
+}
+
+header #nav-container nav {
+	font-family: 'Raleway';
+    font-size: var(--Font-size);
+    display: flex;
+    justify-content: space-between;
+    width: 165px;
+    align-self: center;
+}
+
+header #nav-container nav a {
+	color: var(--White);
+	text-decoration: none;
+	font-weight: 300;
+	transition: .5s ease all;
+}
+
+header #nav-container nav a:hover {
+	color: yellow;
+}
+
+/* main section */
+section#main {
+	position: relative;
+	z-index: 1;
+}
+
+section#main #main-container {
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+section#main #main-container .main-header {
+	font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+section#main #main-container  p {
+	font-family: 'Open Sans';
+    font-size: 15px;
+	font-weight: 300;
+    line-height: 23px;
+}
+
+section#main #main-container .action-link {
+	display: block;
+	background-image: linear-gradient(90deg, var(--Cyan-inside-call-to-action-gradient), var(--Blue-inside-call-to-action-gradient));
+	color: var(--White);
+	font-family: 'Raleway';
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	width: 150px;
+	margin: 30px auto;
+	padding: 15px 40px;
+	border-radius: 30px;
+	transition: .5s ease all;
+}
+
+section#main #main-container .action-link:hover {
+	color: yellow;
+}
+
+section#main #bg-curvy-mobile img{
+	width: 100%;
+	height: 100%;
+}
+
+section#main #bg-curvy-mobile {
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	bottom: 0px;
+}
+
+section#main #bg-curvy-desktop {
+	display: none;
+}
+
+/* attributes */
+section#attributes,
+section#stay-productive,
+section#testimonies {
+	background-color: var(--Dark-Blue-main-background);
+	
+}
+section#attributes #attribute-container {
+	text-align: center;
+}
+
+section#attributes #attribute-container .attribute {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+    padding-bottom: 20px;
+	max-width: 355px;
+	margin: auto;
+}
+
+section#attributes #attribute-container .attribute .attribute-picture {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+section#attributes #attribute-container .attribute .headings {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 18px;
+}
+
+section#attributes #attribute-container .attribute #access,
+section#attributes #attribute-container .attribute #collaboration,
+section#attributes #attribute-container .attribute #anyfile {
+	
+}
+
+section#attributes #attribute-container .attribute #security{
+	height: 90px;
+}
+
+section#attributes #attribute-container .attribute div {
+	margin-bottom: 10px;
+}
+section#attributes #attribute-container .attribute p {
+	font-family: 'Open Sans';
+    font-size: 13px;
+	font-weight: 300;
+    line-height: 23px;
+	margin-top: 5px;
+}
+
+/* stay productive */
+section#stay-productive .container {
+	margin: auto;
+	padding: 90px 25px;
+}
+
+section#stay-productive #productive-container #productive-text #product-title {
+	font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 700;
+    max-width: 530px;
+	margin: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+section#stay-productive .container p {
+	font-family: 'Open Sans';
+    font-size: 14px;
+	font-weight: 300;
+    line-height: 23px;
+	margin: auto;
+	margin-bottom: 15px;
+	color: var(--White);	
+}
+
+section#stay-productive .container label {
+	color: var(--Cyan-inside-call-to-action-gradient);
+    font-size: 17px;
+	border-bottom: 1px solid var(--Cyan-inside-call-to-action-gradient);
+	padding-bottom: 5px;
+}
+
+section#stay-productive .container label #arrow-div{
+    width: 20px;
+	display: inline-block;
+}
+
+section#testimonies #testimonies-container {
+	position: relative;
+}
+section#testimonies .container {
+	    padding: 65px 45px 0 45px;
+}
+
+/* testimonies */
+section#testimonies .testimony {
+	background-color: var(--Dark-Blue-testimonials-background);
+	border-radius: 7px;
+	padding: 15px 22px;
+	box-shadow: 0px 0px 8px var(--Dark-Blue-testimonials-background);
+	max-width: 225px;
+	margin: auto;
+	margin-bottom: 25px;
+	position: relative;
+		z-index: 1;
+}
+
+section#testimonies .testimony p {
+	font-family: 'Open Sans';
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 19px;
+	color: var(--White);
+}
+
+section#testimonies .testimony .person {
+	display: flex;
+}
+
+section#testimonies .testimony .person .photo {
+	width: 25px;
+	height: 25px;
+}
+
+section#testimonies .testimony .person .photo img {
+    border-radius: 15px;
+}
+
+section#testimonies .testimony .person .name {
+	font-family: 'Raleway';
+    font-size: 10px;
+	font-weight: 700;
+	adding-bottom: 3px;
+}
+
+section#testimonies .testimony .person .person-id {
+	padding-left: 10px;
+}
+section#testimonies .testimony .person .position {
+	font-family: 'Open Sans';
+        font-size: 8px;
+    font-weight: 300;
+}
+
+section#testimonies #quote-content {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 22px;
+}
+
+/* email signup */
+#email-signup-container {
+	margin: auto;
+    width: 270px;
+	background-color: var(--Dark-Blue-intro-and-email-sign-up);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	    padding: 30px 30px 20px 30px;
+		border-radius: 12px;
+		box-shadow:  4px 0px 5px var(--Dark-Blue-footer-background);
+		    position: relative;
+    top: 170px;
+}
+
+#email-signup-container #title {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 17px;
+	padding-bottom: 3px;
+}
+
+#email-signup-container #title {
+	font-family: 'Raleway';
+}
+
+#email-signup-container p {
+	font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 21px;
+}
+
+#email-signup-container form {
+	width: 100%;
+}
+
+#email-signup-container form input[type=text],
+#email-signup-container form input[type=submit] {
+	display: block;
+	margin-bottom: 20px;
+	padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+	font-size: 14px;
+}
+
+#email-signup-container form input[type=text] {
+	padding-left: 25px;
+	width: 88%;
+	font-size: 14px;
+}
+
+/* signup place holder */
+::placeholder{
+	color: grey;
+}
+#email-signup-container form input[type=submit] {
+	background-image: linear-gradient(90deg, var(--Cyan-inside-call-to-action-gradient), var(--Blue-inside-call-to-action-gradient));
+	color: var(--White);
+	font-family: 'Open Sans';	
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s ease all;
+}
+
+#email-signup-container form input[type=submit]:hover {
+	color: yellow;
+}
+
+footer {
+	background-color: var(--Dark-Blue-footer-background);
+}
+
+footer #footer-container {
+	padding: 230px 30px 20px 30px;
+	    width: 340px;
+    margin: auto;
+}
+
+footer #footer-container #fylo-logo-footer {
+    width: 155px;
+    padding-left: 10px;
+}
+
+footer #footer-container #contacts-flex .contact-row {
+	display: flex;
+}
+
+footer #footer-container #contacts-flex #location {
+    width: 34px;
+    align-self: flex-start;
+}
+
+footer #footer-container #contacts-flex #two-contacts {
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+
+footer #footer-container #contacts-flex .contact-column #phone {
+    width: 12px;
+    align-self: flex-start;
+}
+
+footer #footer-container #contacts-flex .contact-column #email {
+	width: 17px;
+    align-self: flex-start;
+}
+footer #footer-container #contacts-flex .contact-row p {
+	font-size: 15px;
+   font-family: 'Open Sans';
+	margin: 0;
+	padding-left: 25px;
+	line-height: 22px;
+}
+
+footer #footer-container #contacts-flex .contact-column #contact-phone {
+	padding-bottom: 20px;
+}
+footer #footer-container #contacts-flex .footer-links {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-bottom: 20px;
+}
+
+footer #footer-container #contacts-flex .footer-links {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer #footer-container #contacts-flex .footer-links a {
+	color: var(--White);
+	font-size: 14px;
+	font-family: 'Open Sans';
+    text-decoration: none;
+	padding-bottom: 15px;
+}
+
+footer #footer-container #contacts-flex .footer-links a:hover {
+	color: yellow;
+}
+
+footer #footer-container #contacts-flex #social-media {
+	display: flex;
+    justify-content: space-between;
+    width: 90px;
+    margin: auto;
+}
+
+footer #footer-container #contacts-flex #social-media a {
+	font-size: 13px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px 6px;
+	cursor: pointer;
+}
+footer #footer-container #contacts-flex #social-media a:hover {
+	color: yellow;
+	border: 1px solid yellow;
+}
+
+footer #footer-container #contacts-flex .contact-column {
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
