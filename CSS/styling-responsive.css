@@ -13,7 +13,6 @@
 /* big smart phone */
 @media screen and (min-width: 540px) {
 	section#main #main-container {
-		width: 40%;
 		margin: auto;
 	}
 	
