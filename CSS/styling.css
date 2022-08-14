@@ -131,7 +131,7 @@ section#attributes #attribute-container .attribute {
 	align-items: center;
 	padding-top: 20px;
     padding-bottom: 20px;
-	max-width: 355px;
+	max-width: 391px;
 	margin: auto;
 }
 
@@ -146,12 +146,6 @@ section#attributes #attribute-container .attribute .headings {
 	font-size: 18px;
 }
 
-section#attributes #attribute-container .attribute #access,
-section#attributes #attribute-container .attribute #collaboration,
-section#attributes #attribute-container .attribute #anyfile {
-	
-}
-
 section#attributes #attribute-container .attribute #security{
 	height: 90px;
 }
@@ -161,7 +155,7 @@ section#attributes #attribute-container .attribute div {
 }
 section#attributes #attribute-container .attribute p {
 	font-family: 'Open Sans';
-    font-size: 13px;
+    font-size: 16px;
 	font-weight: 300;
     line-height: 23px;
 	margin-top: 5px;
@@ -417,18 +411,19 @@ footer #footer-container #contacts-flex .footer-links a:hover {
 }
 
 footer #footer-container #contacts-flex #social-media {
-	display: flex;
-    justify-content: space-between;
-    width: 90px;
     margin: auto;
 }
 
 footer #footer-container #contacts-flex #social-media a {
-	font-size: 13px;
+	font-size: 16px;
     border: 1px solid white;
+	width: 30px;
+	height: 30px;
     border-radius: 50%;
-    padding: 5px 6px;
-	cursor: pointer;
+    text-align: center;
+	cursor: pointer;	
+	padding: 7px 9px;
+    margin-inline: 3px;
 }
 footer #footer-container #contacts-flex #social-media a:hover {
 	color: yellow;

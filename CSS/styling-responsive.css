@@ -113,7 +113,6 @@
 	}
 	
 	section#attributes #attribute-container {
-		width: 860px;		
 		margin: auto;
 		padding-top: 60px;
 		padding-bottom: 40px;
@@ -123,11 +122,7 @@
 		display:flex;
 		justify-content: space-between;
 	}
-	
-	section#attributes #attribute-container .attribute {
-		width: 325px;
-	}
-	
+		
 	section#attributes #attribute-container .attribute .attribute-picture {
 	    width: 65px;
 		height: 60px;
