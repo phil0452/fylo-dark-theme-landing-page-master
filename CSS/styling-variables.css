@@ -1,17 +1,58 @@
 :root{
 	/* Primary */
-	--Dark-Blue-intro-and-email-sign-up: hsl(217, 28%, 15%);
-	--Dark-Blue-main-background: hsl(218, 28%, 13%);
-	--Dark-Blue-footer-background: hsl(216, 53%, 9%);
-	--Dark-Blue-testimonials-background: hsl(219, 30%, 18%);
+	--Dark-Blue-intro-and-email-sign-up: 217 28% 15%;
+	--Dark-Blue-main-background: 218 28% 13%;
+	--Dark-Blue-footer-background: 216 53% 9%;
+	--Dark-Blue-testimonials-background: 219 30% 18%;
 	
 	/* Accent */
-	--Cyan-inside-call-to-action-gradient: hsl(176, 68%, 64%);
-	--Blue-inside-call-to-action-gradient: hsl(198, 60%, 50%);
+	--Cyan-inside-call-to-action-gradient: 176 68% 64%;
+	--Blue-inside-call-to-action-gradient: 198 60% 50%;
 
 	/* Neutral */
-	--White: hsl(0, 0%, 100%);
+	--White: 0 0% 100%;
 	
 	/* Typography */
-	--Font-size: 14px;		
+	--Font-size-14: 14px;	
+	--Font-size-12: 12px;	
 }
+
+.text_raleway {font-family: 'Raleway';}
+.text_open_sans {font-family: 'Open Sans';}
+
+.font_size_12 { font-size: var(--Font-size-12);}
+.font_size_14 { font-size: var(--Font-size-14);}
+
+.font_weight_400 { font-weight: 400; }
+.font_weight_700 { font-weight: 700; }
+
+.bg_Dark_Blue_intro_and_email_sign_up {	background-color: hsl(var(--Dark-Blue-intro-and-email-sign-up));}
+.bg_Dark_Blue_main_background {	background-color: hsl(var(--Dark-Blue-main-background));}
+.bg_Dark_Blue_footer_background {	background-color: hsl(var(--Dark-Blue-footer-background));}
+.bg_Dark_Blue_testimonials_background {	background-color: hsl(var(--Dark-Blue-testimonials-background));}
+
+.bg_Cyan_inside_call_to_action_gradient { background-color: hsl(var(--Cyan-inside-call-to-action-gradient));}
+.bg_Blue_inside_call_to_action_gradient { background-color: hsl(var(--Blue-inside-call-to-action-gradient));}
+
+.text_Cyan_inside_call_to_action_gradient { color: hsl(var(--Cyan-inside-call-to-action-gradient));}
+.text_Cyan_inside_call_to_action_gradient_6 { color: hsl(var(--Cyan-inside-call-to-action-gradient) / .6)};
+.text_Blue_inside_call_to_action_gradient { color: hsl(var(--Blue-inside-call-to-action-gradient));}
+
+.text_white { color: var(--White);}
+.text_off_white {color: hsl(var(--White) / .8);}
+.text_off_white_6 {color: hsl(var(--White) / 0.6)}
+.text_off_white_7 {color: hsl(var(--White) / 0.7)}
+
+ .text_left {text-align: left; }
+.line_height_30 {line-height: 32.5px;}
+.line_height_20 {line-height: 20.5px;}
+
+.container { padding: 30px 50px;}
+
+h1,
+h2,
+p {
+	text-align: center;
+}
+
+.flex { display: flex;}

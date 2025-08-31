@@ -1,240 +1,62 @@
-@media screen and (min-width: 411px) {
-	section#testimonies #testimonies-container {
-		width: 345px;
-		margin: auto;
-	}
-	
-	#footer-container #contacts-flex .contact-column {
-		width: 340px;
-		margin: auto;
-	}
-}
-
-/* big smart phone */
-@media screen and (min-width: 540px) {
-	section#main #main-container {
-		margin: auto;
-	}
-	
-	section#stay-productive #productive-container #productive-text #product-title {
-		font-size: 32px;
-		line-height: 40px;
-		margin-bottom: 15px;
-	}
-	
-	#email-signup-container {
-		width: 70%;
-	}
-	#email-signup-container form input[type=text] {
-		width: 93%;
-	}
-}
-
-/* tablet screen */	
-@media screen and (min-width: 750px) {
-	header #nav-container #fylo-logo {
-		width: 110px;
-		height: 35px;
-	}
-	
-	section#stay-productive #productive-container #productive-text #product-title {
-		font-family: 'Raleway';
-		font-size: 32px;
-		font-weight: 700;
-		line-height: 40px;
-		width: 300px;
-		margin-bottom: 15px;
-	}
-	
-	section#stay-productive .container #productive-text{
-		width: 410px;
-		margin: auto;
-	}
-	
-	section#stay-productive .container p {
-		margin-bottom: 15px;
-	}
-	
-	section#stay-productive .container label {
-	}
-
-	#email-signup-container form input[type=text],  
-	#email-signup-container form input[type=submit] {
-		padding-top: 10px;
-		padding-bottom: 10px;
-		font-size: 14px;
-	}
-
-	#email-signup-container form {
-		display: flex;
-		justify-content: space-between;
-		margin-top: 25px;
-	}
-	#email-signup-container form input[type=text] {
-		width: 57%;
-	}
-	
-	#email-signup-container form input[type=submit] {
-		    width: 35%;
-	}
-}
-
 /* desktop screen */
+
 @media screen and (min-width: 1100px) {
-	header #nav-container {
-		width: 850px;
-		margin: auto;
-	}
-	
-	header #nav-container nav {
-		width: 205px;
-	}
-		
-	section#main #main-container {
-		width: 440px;
-		margin: auto;
-	}
-	
-	section#main #bg-curvy-mobile {
-		display: none;
-	}
-	
-	section#main #bg-curvy-desktop img{
-		width: 100%;
-		height: 100%;
-	}
+	.header_container { padding: 50px;}
+	.picture > img { width: 450px;}
+	#mobile_image {	display: none;}
+	#desktop_image {display: block;	}
 
-	section#main #bg-curvy-desktop {
-		display: block;
-		width: 100%;
-		height: 200px;
-		position: absolute;
-		bottom: 0;
+	#main {
+		        background-image: url(../images/bg-curvy-desktop.svg);
+        padding-bottom: 4rem;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
 	}
 	
-	section#attributes #attribute-container {
-		margin: auto;
-		padding-top: 60px;
-		padding-bottom: 40px;
-	}
-	
-	section#attributes #attribute-container .flex-row {
-		display:flex;
-		justify-content: space-between;
-	}
-		
-	section#attributes #attribute-container .attribute .attribute-picture {
-	    width: 65px;
-		height: 60px;
-	}
-	
-	section#attributes #attribute-container .attribute #security{
-		padding-bottom: 7px;
-		height: 85px;
-	}
-	
-	section#stay-productive #productive-container {
-		width: 1030px;
-		display: flex;
-		justify-content: space-between;
-		margin: auto;
-		position: relative;
-	}
-	
-	section#stay-productive #productive-container #productive-text #product-title {
-		margin: 0;
-	}
-	
-	section#stay-productive #productive-container #productive-picture{
-		width: 505px;
-		height: 370px;
-	}
-	
-	section#stay-productive #productive-container #productive-text{
-		width: 465px;
-		align-self: center;
-		margin: 0;
-	}
-		
-	section#testimonies #testimonies-container {
-		width: 985px;
-		margin: auto;
-	}
-	
-	section#testimonies #testimonies-container #quote-content {
-		left: 53px;
-		top: 40px;
-		width: 40px;
-	}
-	
-	section#testimonies .container {
-		display: flex;
-		justify-content: space-between;		
-	}
-	
-	section#testimonies .container .testimony {
-		width: 225px;
-	}
-	
-	section#testimonies .testimony p {
-		font-family: 'Open Sans';
-		font-size: 11px;
-	}
-	
-	#email-signup-container {
-		margin: auto;
-		width: 605px;
-		top: 120px;
-	}
-	
-	#email-signup-container #sign-up {
-		width: 520px;
-	}
-	
-	#email-signup-container #title {
-		font-size: 20px;
-		text-align: center;
-	}
-		
-	footer #footer-container  {
-		width: 985px;
-	}
-	footer #footer-container #contacts-flex {
-		display: flex;
-		justify-content: space-between;
-	}
-	
-	footer #footer-container #contacts-flex #location {
-		width: 15px;
-	}
-	#footer-container #contacts-flex .contact-column {
-		margin: 0;
-	}
-		
-	footer #footer-container #contacts-flex .contact-row p {
-		font-size: 13px;
-		font-weight: 300;
-		width: 286px;
-	}
-	
-	footer #footer-container #contacts-flex .footer-links {
-		padding-top: 0; 
-		padding-bottom: 5px;
-	}
-
-	footer #footer-container #contacts-flex .contact-column #contact-phone {
-		padding-bottom: 15px;
-	}
-
-	#footer-container #contacts-flex .contact-column {
-		width: 270px;
-	}
-	
-	#footer-container #contacts-flex .contact-column:first-child {
-		flex: 0 1 100%;
-	}
-	
-	#footer-container #contacts-flex .contact-column:last-child {
-		align-self: flex-start;
-	}
+.main_width {
+	max-width: 370px;
+	margin-inline: auto;
 }
+	.flex-row { display: flex; }
+	.testimony_container { padding: 30px 200px; 
+	}
+	.testimony_image {
+		    width: 40px;
+    top: -28px;
+    left: 0px;
+    position: absolute;
+	}
+	
+	.productive_container { padding: 30px 160px; }
+
+	form { flex-direction: row;}
+
+form input[type=text],
+form input[type=submit] {
+    margin-bottom: unset;
+}
+.signup_form { width: 600px; }
+
+form input[type=text] {
+    width: 300px;
+    height: 15px;
+}
+
+.footer_flex {	
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-container { width: unset;}
+
+#social-media { padding-block: unset;}
+
+#social_media_column {
+	text-align: center;
+	padding-inline: 25px; 
+	padding-top: 5px;
+}
+}
+
