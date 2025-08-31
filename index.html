@@ -22,67 +22,69 @@
   </style>
 </head>
 <body>
-	<header>
-		<div class="container" id="nav-container">
-			<div id="fylo-logo">
-				<img src="images/logo.svg" alt="fylo-logo" />
+	<header class="header_flex header_container">
+			<div>
+				<img src="images/logo.svg" id="fylo-logo" alt="fylo-logo" />
 			</div>
 			
 			<nav>
-				<a href="#">Features</a>
-				<a href="#">Team</a>
-				<a href="#">Sign In</a>
+				<ul class="flex header_flex navigation text_raleway font_size_14">
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Team</a></li>
+					<li><a href="#">Sign In</a></li>
+				</ul>				
 			</nav>
-		</div>
 	</header>
+
+	<div class="picture">
+		<img src="images/illustration-intro.png" alt="fylo-logo" />
+	</div>
+
   <!--maybe with the chagne to background colors, have teach
   part put into its own section element???-->
 	<section id="main">
-		<div class="container" id="main-container">
-			<div id="intro-picture">
-				<img src="images/illustration-intro.png" alt="fylo-logo" />
-			</div>		
-		
-			<div class="main-header">All your files in one secure location, accessible anywhere.</div>
+		<div class="container main_width">		
 			
-			<p>
+			<h1 class="text_raleway font_weight_700 line_height_30">All your files in one secure location, accessible anywhere.</h1>
+			
+			<p class="text_off_white_6 text__open_sans line_height_20">
 				Fylo stores all your most important files in one secure location. Access 
 				them wherever you need, share and collaborate with friends family, and co-workers.
 			</p>
 			
-			<a href="#" class="action-link">Get Started</a>
+			<a href="#" class="action_link text_white text_raleway font_weight_700 font_size_12">Get Started</a>
+			
 		</div>
+		<!--
 		
-		<div id="bg-curvy-mobile">
-			<img src="images/bg-curvy-mobile.svg" alt="fylo-logo" />
-		</div>
 		
 		<div id="bg-curvy-desktop">
 			<img src="images/bg-curvy-desktop.svg" alt="fylo-logo" />
 		</div>
+	-->
 	</section>
 	
-	<section id="attributes">
-		<div class="container" id="attribute-container">
+	<section id="attributes" class="bg_Dark_Blue_main_background">
+		<div class="container">
 			<div class="flex-row">
 				<div class="attribute">
 					<div class="attribute-picture" id="access">
 						<img src="images/icon-access-anywhere.svg" alt="access" />
 					</div>
 					
-					<div class="headings">Access your files, anywhere</div>
-					<p>
+					<h2 class="text_raleway font_size_14">Access your files, anywhere</h2>
+					<p class="text_off_white_6 text__open_sans line_height_20">
 						The ability to use a smartphone, tablet, or computer to access your account means your 
 						files follow you everywhere.
 					</p>
 				</div>
 				<div class="attribute">
 					<div class="attribute-picture" id="security">
-						<img src="images/icon-security.svg" alt="security" />
+						<img src="images/icon-security.svg" style="width: 40px;" alt="security" />
 					</div>
 					
-					<div class="headings">Security you can trust</div>
-					<p>
+					<h2 class="text_raleway font_size_14">Security you can trust</h2>
+					<p class="text_off_white_6 text__open_sans line_height_20">
 						2-factor authentication and user-controlled encryption are just a couple of the security 
 						features we allow to help secure your files.
 					</p>
@@ -95,8 +97,8 @@
 						<img src="images/icon-collaboration.svg" alt="collaboration" />
 					</div>
 					
-					<div class="headings">Real-time collaboration</div>
-					<p>
+					<h2 class="text_raleway font_size_14">Real-time collaboration</h2>
+					<p class="text_off_white_6 text__open_sans line_height_20">
 						Securely share files and folders with friends, family and colleagues for live collaboration. 
 						No email attachments required.
 					</p>
@@ -107,8 +109,8 @@
 						<img src="images/icon-any-file.svg" alt="anyfile" />
 					</div>
 					
-					<div class="headings">Store any type of file</div>
-					<p>
+					<h2 class="text_raleway font_size_14">Store any type of file</h2>
+					<p class="text_off_white_6 text__open_sans line_height_20">
 						Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
 						file types to be securely stored and shared.
 					</p>
@@ -117,57 +119,60 @@
 		</div>			
 	</section>
 
-  <section id="stay-productive">
-	<div class="container" id="productive-container">
-		<div id="productive-picture">
-			<img src="images/illustration-stay-productive.png" alt="stay-productive" />
+  <section id="stay-productive" class="bg_Dark_Blue_main_background">
+	<div class="productive_container flex-row">
+		<div class="picture">
+			<img src="images/illustration-stay-productive.png" id="productive-picture-img" alt="stay-productive" />
 		</div>
 		
 		<div id="productive-text">
-			<div id="product-title">Stay productive, wherever you are</div>
+			<div style="padding: 55px;">
+				<h2 class="text_raleway font_size_14 text_left" >Stay productive, wherever you are</h2>
 			
-			<p>
+			<p class="text_off_white_6 text__open_sans line_height_20 text_left">
 				Never let location be an issue when accessing your files. Fylo has you covered for
 				all of your file storage needs.
 			</p>
 			
-			<p>
+			<p class="text_off_white_6 text__open_sans line_height_20 text_left">
 				Securely share files and folders with friends, family and colleagues for live collaboration. 
 				No email attachments required.
 			</p>
 			
-			<label>
+			<a href="#" class="flyo_works_link text_Cyan_inside_call_to_action_gradient_6 font_size_12">
 				See how Fylo works
 				
 				<div id="arrow-div">
 					<img src="images/icon-arrow.svg" alt="arrow" />
 				</div>
-			</label>
+			</a>
+			</div>
+			
 		</div>
 	</div>
   </section>
 
-  <section id="testimonies">
-		<div id="testimonies-container">
-			<div id="quote-content">
-				<img src="images/bg-quotes.png" alt="arrow" />
-			</div>
-			<div class="container">		
+  <section id="testimonies" class="bg_Dark_Blue_main_background" style="padding-top: 100px;">
+			
+			<div class="container flex-row testimony_width">		
+				
+			
 				<div class="testimony">
-					<p>
+					<img src="images/bg-quotes.png" class="testimony_image" alt="arrow" />
+					<p class="text__open_sans line_height_20 text_left font_size_12 text_off_white">
 						Fylo has improved our team productivity by an order of magnitude. Since making 
 						the switch our team has become a well-oiled collaboration machine.
 					</p>
 					
-					<div class="person">
+					<div class="flex">
 						<div class="photo">
 							<img src="images/profile-1.jpg" alt="arrow" />
 						</div>
 						<div class="person-id">
-							<div class="name">
+							<div class="text__open_sans font_size_12 font_weight_700">
 								Satish Patel
 							</div>
-							<div class="position">
+							<div class="text__open_sans font_size_12 font_weight_400 text_off_white_6">
 								Founder & CEO, Huddle
 							</div>
 						</div>
@@ -175,20 +180,20 @@
 				</div>
 				
 				<div class="testimony">
-					<p>
+					<p class="text__open_sans line_height_20 text_left font_size_12 text_off_white">
 						Fylo has improved our team productivity by an order of magnitude. Since making 
 						the switch our team has become a well-oiled collaboration machine.
 					</p>
 					
-					<div class="person">
+					<div class="flex">
 						<div class="photo">
 							<img src="images/profile-2.jpg" alt="arrow" />
 						</div>
 						<div class="person-id">
-							<div class="name">
+							<div class="text__open_sans font_size_12 font_weight_700">
 								Bruce McKenzie
 							</div>
-							<div class="position">
+							<div class="text__open_sans font_size_12 font_weight_400 text_off_white_6">
 								Founder & CEO, Huddle
 							</div>
 						</div>
@@ -196,88 +201,90 @@
 				</div>
 				
 				<div class="testimony">
-					<p>
+					<p class="text__open_sans line_height_20 text_left font_size_12 text_off_white">
 						Fylo has improved our team productivity by an order of magnitude. Since making 
 						the switch our team has become a well-oiled collaboration machine.
 					</p>
 					
-					<div class="person">
+					<div class="flex">
 						<div class="photo">
 							<img src="images/profile-3.jpg" alt="arrow" />
 						</div>
 						<div class="person-id">
-							<div class="name">
+							<div class="text__open_sans font_size_12 font_weight_700">
 								Iva Boyd
 							</div>
-							<div class="position">
+							<div class="text__open_sans font_size_12 font_weight_400 text_off_white_6">
 								Founder & CEO, Huddle
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 		
-		<div id="email-signup-container">
+<div class="signup_form">
 	<div id="sign-up">
-		<div id="title">
+		<h3 class="signup_title text_raleway font_weight_700">
 			Get early access today
-		</div>
+		</h3>
 		
-		<p>
+		<p class="text__open_sans line_height_20 font_size_14 text_off_white_7">
 			It only takes a minute to sign up and our free starter tier is extremely generous. 
 			If you have any questions, our support team would be happy to help you.
 		</p>
 		
-		<form>
-			<input type="text" placeholder="email@example.com">
-			<input type="submit" value="Get Started For Free">
+		<form class="flex" onsubmit="return handleSubmit(event)">
+			<input type="text" id="email" class="text__open_sans text_weight_400" placeholder="email@example.com">
+			<input type="submit" class="action_link text_white text_raleway font_weight_700 font_size_12" 
+			style="width: 205px;margin-top: 0px; cursor: pointer;" value="Get Started For Free">			
 		</form>
+		
+			<strong id="error-message" class="">Please enter a valid email address.</strong>
 	</div>
   </div>
   </section>
   
-  
-
-
   <footer>
-	<div id="footer-container">
-		<div id="fylo-logo-footer">
+	<section id="footer_information" class="footer-container">
+		<div class="fylo-logo-footer">
 			<img src="images/logo.svg" alt="fylo-logo" />
 		</div>
 		
-		<div id="contacts-flex">
+		<div class="footer_flex">
+		<div class="footer_flex">
 			<div class="contact-column">
-				<div class="contact-row">
-					<div id="location">
-						<img src="images/icon-location.svg" alt="location" />
+				<div class="flex" style="width: 325px;">
+					<div class="location">
+						<img src="images/icon-location.svg" class="footer_icon" alt="location" />
 					</div>
-					<p>
+					<p class="footer_paragraph text_left text_off_white_6 font_size_14 line_height_20">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 						tempor incididunt ut labore et dolore magna aliqua
 					</p>
 				</div>
 			</div>
-			<div class="contact-column" id="two-contacts">
-				<div class="contact-row" id="contact-phone">
+			<div class="contact-column">
+				<div class="flex footer_contact">
 					<div id="phone">
 						<img src="images/icon-phone.svg" alt="phone" />
 					</div>
-					<p>
+					<p class="footer_paragraph text_left text_off_white_6 font_size_14 line_height_20">
 						+1-543-123-4567
 					</p>
-				</div>		
-				<div class="contact-row">
+				</div>	
+				<div class="flex footer_contact">
 					<div id="email">
 						<img src="images/icon-email.svg" alt="email" />
 					</div>
-					<p>
+					<p class="footer_paragraph text_left text_off_white_6 font_size_14 line_height_20">
 						example@fylo.com
 					</p>
 				</div>
 			</div>
+		</div>
+		<div class="footer_flex">
 			<div class="contact-column" id="links">
-				<div class="footer-links">
+				<div class="footer-links text_off_white_6">
 					<a href="#">About Us</a>
 					<a href="#">Jobs</a>
 					<a href="#">Press</a>
@@ -285,21 +292,22 @@
 				</div>
 			</div>
 			<div class="contact-column">
-				<div class="footer-links">
+				<div class="footer-links text_off_white_6">
 					<a href="#">Contact Us</a>
 					<a href="#">Terms</a>
 					<a href="#">Privacy</a>
 				</div>
 			</div>
-			<div class="contact-column">
+			<div class="contact-column" id="social_media_column">
 				<div id="social-media">
-					<a id="facebook-link"><i class="fab fa-facebook-f"></i></a>
-					<a id="twitter-link"><i class="fab fa-twitter"></i></a>
-					<a id="instagram-link"><i class="fab fa-instagram"></i></a>
+					<a id="facebook-link" class="facebook_icon"><i class="fab fa-facebook-f"></i></a>
+					<a id="twitter-link" class="twitter_icon"><i class="fab fa-twitter"></i></a>
+					<a id="instagram-link" class="instagram_icon"><i class="fab fa-instagram"></i></a>
 				</div>
 			</div>
 		</div>
-	</div>
+		</div>
+	</section>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
@@ -307,6 +315,6 @@
   </footer>
   
   <!-- needed to stop css transition from firing on page load -->
-  <script> </script>
+  <script src="js/form_validate.js" type="text/javascript"> </script>
 </body>
 </html>
